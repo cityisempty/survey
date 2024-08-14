@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Cityisempty\FilamentSurvey\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentSurveyCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-survey';
 
     public $description = 'My command';
 

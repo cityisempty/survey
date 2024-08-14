@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "cityisempty/filament-survey",
+    "description": "SurveyJS Form Library is a free to use MIT-licensed client-side component that allows you to render dynamic JSON-based forms in any JavaScript application, collect responses, and send all form submission data to a databasThis package is  an open-source survey component designed to seamlessly integrate with the Filament and Livewire PHP frameworks. Built on top of the robust SurveyJS library, this solution offers developers a powerful and flexible toolset for creating dynamic surveys and forms.",
     "keywords": [
-        ":vendor_name",
+        "cityisempty",
         "laravel",
-        ":package_slug"
+        "filament-survey"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/cityisempty/filament-survey",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/cityisempty/filament-survey/issues",
+        "source": "https://github.com/cityisempty/filament-survey"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Lice Sun",
+            "email": "sunlice@hotmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Cityisempty\\FilamentSurvey\\": "src/",
+            "Cityisempty\\FilamentSurvey\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Cityisempty\\FilamentSurvey\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Cityisempty\\FilamentSurvey\\FilamentSurveyServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentSurvey": "Cityisempty\\FilamentSurvey\\Facades\\FilamentSurvey"
             }
         }
     },
