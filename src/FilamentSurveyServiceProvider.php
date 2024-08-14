@@ -2,6 +2,8 @@
 
 namespace Cityisempty\FilamentSurvey;
 
+use Cityisempty\FilamentSurvey\Commands\FilamentSurveyCommand;
+use Cityisempty\FilamentSurvey\Testing\TestsFilamentSurvey;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Cityisempty\FilamentSurvey\Commands\FilamentSurveyCommand;
-use Cityisempty\FilamentSurvey\Testing\TestsFilamentSurvey;
 
 class FilamentSurveyServiceProvider extends PackageServiceProvider
 {
